@@ -228,7 +228,8 @@ public class Formulario_Servidor extends javax.swing.JFrame {
                // javax.swing.UIManager.setLookAndFeel(info.getClassName());
                //     break;
             // }
-           javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.luna.LunaLookAndFeel");
+           //javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.luna.LunaLookAndFeel");
+           javax.swing.UIManager.setLookAndFeel("com.birosoft.liquid.LiquidLookAndFeel");
         } catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(Formulario_Servidor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
