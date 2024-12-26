@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 import javax.swing.table.DefaultTableModel;
-import entity.Producto;
 
 public class Formulario_Cliente extends javax.swing.JFrame implements Observer{
     private final Cliente client;
